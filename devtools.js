@@ -11,7 +11,7 @@ function evaluateProduct(DOMFirstElement) {
   var scope;
   if (DOMFirstElement) {
     try {
-      var scope = angular.element(DOMFirstElement).scope();
+      scope = angular.element(DOMFirstElement).scope();
     } catch (err) { // angular is not defined
       // pass
     }
