@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "SmCp24",
+  "version": "0.0.1",
+  "description": "This extension show detailed information about selected items on DevTools",
+  "browser_action": {
+    "default_icon": "icon_32.png"
+  },
+  "icons": {
+    "32": "icon_32.png",
+    "128": "icon_128.png"
+  },
+  "author": [
+    {
+      "name": "francesco",
+      "email": "francesco@supermercato24.it"
+    }
+  ],
+  "permissions": [
+    "https://www.supermercato24.it/"
+  ],
+  "devtools_page": "devtools.html",
+  "offline_enabled": false
+}
