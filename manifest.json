@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "SmCp24",
-  "version": "0.0.1",
+  "short_name": "Cp24",
+  "version": "0.0.2",
   "description": "This extension show detailed information about selected items on DevTools",
   "browser_action": {
     "default_icon": "icon_32.png"
